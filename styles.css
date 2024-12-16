@@ -15,7 +15,7 @@ body {
 /* Header and Navigation */
 header {
     background-color: #333;
-    color: white;
+    color: #ff6f91; /* Reddish-pink text */
     padding: 1rem 0;
 }
 
@@ -69,6 +69,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
-    color: white;
+    color: #ff6f91; /* Reddish-pink text */
     margin-top: 20px;
 }
