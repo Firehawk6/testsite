@@ -15,7 +15,7 @@ body {
 /* Header and Navigation */
 header {
     background-color: #333;
-    color: #ff6f91; /* Reddish-pink text */
+    color: white;
     padding: 1rem 0;
 }
 
@@ -50,18 +50,19 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.blog-post {
+.blog-post, .contact-section {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #444; /* Subtle separator */
 }
 
-.blog-post h1, .blog-post h2 {
+.blog-post h1, .blog-post h2, .contact-section h1 {
     color: #ff6f91; /* Match text color */
 }
 
-.blog-post p {
+p {
     margin-top: 10px;
+    margin-bottom: 15px; /* Increased spacing between paragraphs */
 }
 
 /* Footer */
@@ -69,6 +70,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
-    color: #ff6f91; /* Reddish-pink text */
+    color: white;
     margin-top: 20px;
 }
