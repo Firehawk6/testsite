@@ -7,8 +7,8 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a1a1a; /* Dark background */
-    color: #ff6f91; /* Default text color */
+    background-color: #000000; /* Black background */
+    color: #b34734; /* Default text color */
     line-height: 1.6;
 }
 
@@ -45,7 +45,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #2e2e2e; /* Slightly lighter dark background */
+    background-color: #1a1a1a; /* Slightly lighter dark background */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -57,15 +57,15 @@ main {
 }
 
 h1 {
-    color: #ff6f91; /* Light red pink */
+    color: #5e0002;
 }
 
 h2 {
-    color: #d35478; /* Darker red pink */
+    color: #692c21;
 }
 
 h3 {
-    color: #d35478; /* Darker red pink */
+    color: #d35478;
 }
 
 p {
@@ -74,11 +74,14 @@ p {
     margin-bottom: 15px; /* Maintain bottom margin */
 }
 
+a {
+    color: #692c21;
+}
 /* Footer */
 footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
-    color: white;
+    color: #b34734;
     margin-top: 20px;
 }
