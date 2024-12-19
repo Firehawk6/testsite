@@ -61,8 +61,8 @@ main {
 }
 
 p {
-    margin-top: 10px;
-    margin-bottom: 150px; /* Increased spacing between paragraphs */
+    margin-top: 15px; /* Increase top margin for more spacing */
+    margin-bottom: 15px; /* Maintain bottom margin */
 }
 
 /* Footer */
