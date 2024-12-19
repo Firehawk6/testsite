@@ -8,7 +8,7 @@ body, h1, h2, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     background-color: #1a1a1a; /* Dark background */
-    color: #ff6f91; /* Reddish-pink text */
+    color: #ff6f91; /* Default text color */
     line-height: 1.6;
 }
 
@@ -56,11 +56,20 @@ main {
     border-bottom: 1px solid #444; /* Subtle separator */
 }
 
-.blog-post h1, .blog-post h2, .contact-section h1 {
-    color: #ff6f91; /* Match text color */
+h1 {
+    color: #ff6f91; /* Light red pink */
+}
+
+h2 {
+    color: #d35478; /* Darker red pink */
+}
+
+h3 {
+    color: #d35478; /* Darker red pink */
 }
 
 p {
+    color: #b0b0b0; /* Grey */
     margin-top: 15px; /* Increase top margin for more spacing */
     margin-bottom: 15px; /* Maintain bottom margin */
 }
