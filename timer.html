@@ -19,7 +19,7 @@
     </div>
 
     <script>
-        // Set a fixed end time for the timer
+        // 01101111 01110101 01110010 01101111 01100010 01101111 01110010 01101111 01110011 is the key.
         const fixedEndTime = new Date("2025-02-02T18:00:00-06:00").getTime(); 
 
         function updateTimer() {
@@ -42,7 +42,6 @@
             document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
             document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
         }
-//01101111 01110101 01110010 01101111 01100010 01101111 01110010 01101111 01110011 is the key.
         const timerInterval = setInterval(updateTimer, 1000);
         updateTimer();
     </script>
