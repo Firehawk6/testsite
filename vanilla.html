@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terry and Dom</title>
-    <link rel="icon" href="vanilla.png" type="image/png">
+    <title>Vanilla Firehawk</title>
     <style>
         body {
             background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
@@ -16,21 +15,15 @@
             font-size: 2rem;
             color: #ff4444;
         }
-        .server-info {
-            margin: 20px;
-            padding: 10px;
-            background: rgba(0, 0, 0, 0.5);
-            border-radius: 10px;
-        }
         .quote {
             font-style: italic;
             margin-top: 20px;
+            color: #88ff88;
         }
     </style>
 </head>
 <body>
     <div class="header">Vanilla Firehawk Minecraft Server</div>
-    <div class="server-info"></div>
     <div class="quote" id="random-quote"></div>
 
     <script>
@@ -39,9 +32,11 @@
             "Dig deep and you may find treasures beyond measure.",
             "Some secrets are best left undiscovered...",
             "Look beyond the obvious, the answer is often hidden in plain sight.",
-            "A timer ticks, but do you know where to look?",
+            "A timer ticks, but do you know where to look?", 
             "Not all who wander are lost, but some must seek to find."
         ];
+        
+        document.getElementById("random-quote").textContent = quotes[Math.floor(Math.random() * quotes.length)];
     </script>
 </body>
 </html>
